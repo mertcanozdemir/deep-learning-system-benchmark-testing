@@ -1,0 +1,187 @@
+{
+  "system_info": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+    "python_version": "3.10.6",
+    "total_memory_gb": 15.37,
+    "logical_cpu_count": 16,
+    "physical_cpu_count": 8,
+    "cuda_available": true,
+    "cuda_version": "11.8",
+    "cuda_device_count": 1,
+    "cuda_current_device": 0,
+    "cuda_device_name": "NVIDIA GeForce GTX 1650 Ti",
+    "cuda_device_0_name": "NVIDIA GeForce GTX 1650 Ti",
+    "cuda_device_0_total_memory": 4.0,
+    "tf_version": "2.14.1",
+    "tf_gpu_available": false,
+    "tf_physical_devices": {
+      "GPU": 0,
+      "CPU": 1
+    }
+  },
+  "pytorch": {
+    "operations": {
+      "matmul_512": 0.0,
+      "matmul_1024": 0.0010104179382324219,
+      "matmul_2048": 0.005013465881347656,
+      "matmul_4096": 0.0760200023651123,
+      "conv2d_b16": 0.009999990463256836,
+      "conv2d_b32": 0.020999908447265625,
+      "conv2d_b64": 0.018000125885009766
+    },
+    "training": {
+      "cnn_10epochs": 0.0249786376953125,
+      "cnn_iterations_per_sec": 400.3420891875382
+    },
+    "inference": {
+      "cnn_inference": 0.02702188491821289,
+      "images_per_sec": 236845.06167393108,
+      "resnet50_inference": 0.746323823928833,
+      "resnet50_images_per_sec": 214.3841518521015
+    },
+    "cuda": {
+      "cuda_version": "11.8",
+      "cudnn_version": 8700,
+      "cudnn_enabled": true,
+      "gpu_count": 1,
+      "memory": {
+        "total_memory": 3.99969482421875,
+        "max_memory_reserved": 0.0,
+        "allocation": {
+          "1000x1000": {
+            "time_seconds": 2.564359426498413,
+            "size_mb": 3.814697265625,
+            "speed_gbps": 0.0014527176884672251
+          },
+          "5000x5000": {
+            "time_seconds": 0.00399470329284668,
+            "size_mb": 95.367431640625,
+            "speed_gbps": 23.31393613846613
+          },
+          "10000x10000": {
+            "time_seconds": 0.01504063606262207,
+            "size_mb": 381.4697265625,
+            "speed_gbps": 24.768169929460253
+          }
+        },
+        "memset": {
+          "10000x10000": {
+            "time_seconds": 0.006000518798828125,
+            "size_mb": 381.4697265625,
+            "speed_gbps": 62.082803560076286
+          }
+        }
+      },
+      "transfer": {
+        "cpu_to_gpu": {
+          "1000x1000": {
+            "time_seconds": 0.00599360466003418,
+            "size_mb": 3.814697265625,
+            "speed_gbps": 0.6215442141692191
+          },
+          "8000x8000": {
+            "time_seconds": 0.0489656925201416,
+            "size_mb": 244.140625,
+            "speed_gbps": 4.869094397133077
+          }
+        },
+        "gpu_to_cpu": {
+          "1000x1000": {
+            "time_seconds": 0.0009984970092773438,
+            "size_mb": 3.814697265625,
+            "speed_gbps": 3.7308978032473736
+          },
+          "8000x8000": {
+            "time_seconds": 0.04599189758300781,
+            "size_mb": 244.140625,
+            "speed_gbps": 5.183925683241405
+          }
+        },
+        "pinned_memory": {
+          "time_seconds": 0.047023773193359375,
+          "size_mb": 244.140625,
+          "speed_gbps": 5.070171168978665
+        }
+      },
+      "kernel_overhead": {
+        "small_kernel_avg_overhead_ms": 0.029000282287597656,
+        "separate_ops_time": 0.0040056705474853516,
+        "fused_ops_time": 0.009997367858886719,
+        "fusion_speedup": 0.4006725174091386
+      },
+      "precision": {
+        "matmul_float32_time": 0.0838313102722168,
+        "matmul_float32_tflops": 1.639470420129527,
+        "matmul_float16_time": 0.3269999027252197,
+        "matmul_float16_tflops": 0.4203027350362575,
+        "matmul_bfloat16_time": 0.08501267433166504,
+        "matmul_bfloat16_tflops": 1.6166878004072802,
+        "matmul_tensorcore_time": 0.3260002136230469,
+        "matmul_tensorcore_tflops": 0.42159160555311864
+      }
+    }
+  },
+  "tensorflow": {
+    "operations": {
+      "matmul_512": 0.0009930133819580078,
+      "matmul_1024": 0.0059871673583984375,
+      "matmul_2048": 0.02999091148376465,
+      "matmul_4096": 0.2626211643218994,
+      "conv2d_b16": 0.07200098037719727,
+      "conv2d_b32": 0.17599916458129883,
+      "conv2d_b64": 0.5560040473937988
+    },
+    "training": {
+      "cnn_5epochs": 0.12700152397155762,
+      "seconds_per_epoch": 0.025400304794311525
+    },
+    "inference": {
+      "cnn_inference": 1.3049991130828857,
+      "images_per_sec": 1961.6871569761781,
+      "resnet50_inference": 6.939489126205444,
+      "resnet50_images_per_sec": 23.05645229643713
+    }
+  },
+  "numpy": {
+    "matmul_128": 0.0,
+    "matmul_512": 0.0010051727294921875,
+    "matmul_1024": 0.005002737045288086,
+    "matmul_2048": 0.04000496864318848,
+    "matmul_4096": 0.26200008392333984,
+    "svd_128": 0.054997920989990234,
+    "svd_512": 0.3071725368499756,
+    "svd_1024": 1.271479845046997
+  },
+  "memory": {
+    "alloc_10mb": 0.0,
+    "copy_10mb": 0.0040132999420166016,
+    "copy_speed_10mb": 2491.715083466999,
+    "alloc_100mb": 0.0009965896606445312,
+    "copy_100mb": 0.03997349739074707,
+    "copy_speed_100mb": 2501.657511287658,
+    "alloc_1000mb": 0.00700068473815918,
+    "copy_1000mb": 0.3800199031829834,
+    "copy_speed_1000mb": 2631.441120910159,
+    "memory_bandwidth_estimated": 2511.981805801946
+  },
+  "disk": {
+    "write_100mb": 0.20813965797424316,
+    "write_speed_100mb": 480.4466432455404,
+    "read_100mb": 0.05201888084411621,
+    "read_speed_100mb": 1922.3789204475142,
+    "write_500mb": 4.051931858062744,
+    "write_speed_500mb": 123.39792906563176,
+    "read_500mb": 0.19020295143127441,
+    "read_speed_500mb": 2628.770985084655,
+    "write_1000mb": 10.79781460762024,
+    "write_speed_1000mb": 92.61133260190256,
+    "read_1000mb": 0.4110066890716553,
+    "read_speed_1000mb": 2433.050426159023,
+    "disk_total": 475.95995712280273,
+    "disk_used": 428.9267768859863,
+    "disk_free": 47.033180236816406,
+    "disk_percent": 90.1
+  },
+  "timestamp": "2025-04-08T01:50:30.842076"
+}

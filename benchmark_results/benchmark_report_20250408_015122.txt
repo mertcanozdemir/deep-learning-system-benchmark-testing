@@ -1,0 +1,57 @@
+================================================================================
+DEEP LEARNING BENCHMARK REPORT
+================================================================================
+
+SYSTEM INFORMATION
+--------------------------------------------------------------------------------
+Platform: Windows-10-10.0.19045-SP0
+CPU: AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+CPU Cores: 8 physical, 16 logical
+Memory: 15.37 GB
+
+GPU INFORMATION
+--------------------------------------------------------------------------------
+CUDA: Available (version 11.8)
+CUDA Device: NVIDIA GeForce GTX 1650 Ti
+  GPU 0: NVIDIA GeForce GTX 1650 Ti (4.0 GB)
+
+PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------
+
+PyTorch Performance:
+  ResNet50 inference: 214.3841518521015 images/sec
+  CNN inference: 236845.06167393108 images/sec
+  CNN training: 400.3420891875382 iterations/sec
+  Matrix multiplication (1024x1024): 0.0010104179382324219 seconds
+
+TensorFlow Performance:
+  ResNet50 inference: 23.05645229643713 images/sec
+  CNN inference: 1961.6871569761781 images/sec
+  CNN training: 0.025400304794311525 seconds/epoch
+  Matrix multiplication (1024x1024): 0.0059871673583984375 seconds
+
+NumPy Performance:
+  Matrix multiplication (1024x1024): 0.005002737045288086 seconds
+  SVD decomposition (512x512): 0.3071725368499756 seconds
+
+Disk I/O Performance:
+  Read speed: 2433.050426159023 MB/s
+  Write speed: 92.61133260190256 MB/s
+
+Memory Performance:
+  Estimated bandwidth: 2511.981805801946 MB/s
+  Copy speed (1GB): 2631.441120910159 MB/s
+
+OVERALL PERFORMANCE RATING
+--------------------------------------------------------------------------------
+Rating: 10/10
+Category: Excellent for deep learning
+
+Strengths: Many CPU cores (16), Fast ResNet inference (214.4 img/s), Fast disk read (2433.1 MB/s)
+Weaknesses: Slow CPU-GPU transfers (4.9 GB/s)
+
+Recommendation: Consider upgrading RAM to at least 16GB for better performance with larger models.
+
+================================================================================
+Benchmark completed at: 2025-04-08 01:51:23
+================================================================================
