@@ -23,6 +23,85 @@ It generates a full report + performance plots — perfect for comparing environ
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/your-username/deep-learning-system-benchmark.git
+git clone https://github.com/mertcanozdemir/deep-learning-system-benchmark.git
 cd deep-learning-system-benchmark
 pip install -r requirements.txt
+```
+
+> Optional: Install GPU libraries like `torch`, `tensorflow`, `GPUtil`, `py-cpuinfo` for full capabilities.
+
+---
+
+## 🧪 Running the Benchmark
+
+```bash
+python benchmark.py
+```
+
+To skip plot generation:
+
+```bash
+python benchmark.py --no-plots
+```
+
+Specify a custom output directory:
+
+```bash
+python benchmark.py --output-dir my_results/
+```
+
+---
+
+## 📊 Output
+
+- ✅ JSON log of all results (`benchmark_results/`)
+- ✅ Text report summary
+- ✅ Plot visualizations: matrix ops, I/O, CUDA precision
+
+Example:
+
+```
+benchmark_results/
+├── benchmark_results_20250408_143021.json
+├── benchmark_report_20250408_143021.txt
+└── plots/
+    ├── matrix_multiplication.png
+    ├── inference_performance.png
+    ├── cuda_precision.png
+    └── disk_performance.png
+```
+
+---
+
+## 📎 Requirements
+
+- Python ≥ 3.7  
+- NumPy, pandas, matplotlib  
+- Optional: PyTorch, TensorFlow, GPUtil, psutil, cpuinfo  
+
+Install extras with:
+
+```bash
+pip install torch tensorflow gputil py-cpuinfo psutil
+```
+
+---
+
+## 🛠 Features
+
+- 🔬 Compare CPU vs GPU performance
+- 🔁 Measure TensorCore acceleration & mixed precision
+- 📉 Profile I/O bottlenecks and memory limits
+- 📥 Export results for tracking across machines
+
+---
+
+## 📄 License
+
+MIT License © [Your Name](https://github.com/mertcanozdemir)
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! If you find a bug or have a feature idea, please [open an issue](https://github.com/mertcanozdemir/deep-learning-system-benchmark/issues).
