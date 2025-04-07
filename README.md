@@ -70,6 +70,45 @@ benchmark_results/
     ├── cuda_precision.png
     └── disk_performance.png
 ```
+Example text output:
+
+System: Windows 10
+CPU: AMD64 (8 physical / 16 logical cores)
+Memory: 15.37 GB
+GPU: NVIDIA GeForce GTX 1650 Ti (4.0 GB CUDA)
+
+Overall Rating: 10/10
+Category: Excellent for deep learning
+
+🧠 Deep Learning Performance (PyTorch):
+- ResNet50 inference: 214.4 images/sec
+- CNN inference: 236,845 images/sec
+- CNN training: 400.3 iterations/sec
+- Matrix multiplication (1024x1024): 0.0010 sec
+
+🧠 Deep Learning Performance (TensorFlow):
+- ResNet50 inference: 23.0 images/sec
+- CNN inference: 1,961.7 images/sec
+- CNN training: 0.025 sec/epoch
+- Matrix multiplication (1024x1024): 0.0059 sec
+
+🔢 NumPy:
+- Matrix multiplication (1024x1024): 0.0050 sec
+- SVD (512x512): 0.307 sec
+
+💾 Disk I/O:
+- Read speed: 2433 MB/s
+- Write speed: 92.6 MB/s
+
+🧬 Memory:
+- Estimated bandwidth: 2511 MB/s
+- Copy speed (1GB): 2631 MB/s
+
+⚠️ Weakness:
+- Slow CPU-GPU transfers (4.9 GB/s)
+
+💡 Recommendation:
+- Consider upgrading RAM to at least 16GB for better performance with larger models.
 
 ---
 
