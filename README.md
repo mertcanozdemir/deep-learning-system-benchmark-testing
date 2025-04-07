@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)]()
-[![Build Status](https://github.com/your-username/deep-learning-system-benchmark/actions/workflows/python-app.yml/badge.svg)](https://github.com/your-username/deep-learning-system-benchmark/actions)
+[![Build Status](https://github.com/mertcanozdemir/deep-learning-system-benchmark/actions/workflows/python-app.yml/badge.svg)](https://github.com/mertcanozdemir/deep-learning-system-benchmark/actions)
 
 ## 📌 Overview
 
