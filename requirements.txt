@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+psutil
+torch
+tensorflow
+py-cpuinfo
+gputil
