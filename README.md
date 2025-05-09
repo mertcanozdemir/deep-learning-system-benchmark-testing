@@ -137,7 +137,7 @@ pip install torch tensorflow gputil py-cpuinfo psutil
 
 ## 📄 License
 
-MIT License © [Your Name](https://github.com/mertcanozdemir)
+MIT License © [Mertcan Özdemir](https://github.com/mertcanozdemir)
 
 ---
 
